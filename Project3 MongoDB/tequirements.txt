@@ -1,0 +1,5 @@
+fastapi 
+uvicorn
+pydantic
+# python -m pip install pymongo=3.12
+pymongo
