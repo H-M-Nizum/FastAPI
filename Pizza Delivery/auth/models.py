@@ -13,7 +13,7 @@ class UsersModel(Base):
     is_active = Column(Boolean, default=False)
     is_admin = Column(Boolean, default=False)
     
-    orders = relationship('OrderModel', back_populates='users')
+    # orders = relationship('OrderModel', back_populates='users')
     
     def __str__(self):
         return f"<User {self.username}>"
